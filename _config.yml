@@ -1,0 +1,7 @@
+haml_folder: **/*.haml
+sass_folder: **/*.sass
+
+auto: true
+pygments: true
+server: true
+permalink: :url
