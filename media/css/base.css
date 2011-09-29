@@ -1,0 +1,147 @@
+/*  Hello, Nosy ;P
+    Feel free to copy, use, or derive from anything you find in this CSS.
+    It's only CSS after all :)
+ */
+
+/* LAYOUT */
+html{
+    background: #fff url('../img/mesh.png') repeat top center;
+    font-size: 100.001%;
+    overflow-y: scroll;
+}
+#wrap{
+    max-width: 790px;
+    margin: 0 auto;
+}
+#content{
+    border: 1px solid #c7c7c7;
+    background-color: #fff;
+}
+header, nav, #content, footer{
+    margin: 20px 0;
+}
+/* end layout */
+
+/* HEADER/LOGO */
+header{
+    color: #555;
+    height: 140px;
+}
+nav, footer{
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    clear: both;
+}
+#logo{
+    border: none;
+    float: left;
+    font-family: 'Cabin Sketch', Helvetica, Arial, sans-serif;
+    font-size: 120px;
+}
+#logo a,
+#logo a:link,
+#logo a:visited { color: #555; }
+#logo a:active { color: #500; }
+#logo a:hover { color: #38a; text-shadow: 0px 0px 10px #ccc;}
+#logo a {
+    text-decoration: none;
+}
+#tagline{
+    float: right;
+    font-family: 'Short Stack', Tahoma, Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: right;
+    text-shadow: 0px 0px 1px #777;
+}
+#tagline p{
+    margin-bottom:20px;
+}
+/* end header/logo */
+
+/* NAV */
+nav{
+    overflow: auto;
+    font-size: 18px;
+    zoom: 1;
+}
+nav li{
+    float: left;
+    list-style: none;
+    border-right: 1px solid #ddd;
+}
+nav li a{
+    display: inline-block;
+    padding: 9px 20px 11px;
+}
+nav li a,
+nav li a:link { color: #000;}
+nav li a:visited { color: #000; }
+nav li a:active { color: #500; }
+nav li a:hover { color: #555; background-color: #fff; text-shadow: 0px 0px 4px #38a;}
+nav li a {
+    text-decoration: none;
+}
+body#home nav .home,
+body#me nav .me,
+body#projects nav .projects{
+    background-color: #f3f3f3;
+}
+
+/* end nav */
+
+/* FOOTER */
+footer{
+    font-size: 14px;
+    text-align: right;
+    height: 40px;
+}
+footer .inner{
+    margin: 14px 30px;
+}
+/* end footer */
+
+/* BODYTEXT */
+body{
+    font-family: 'Antic', Tahoma, Arial, sans-serif;
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5,h6, #content p{
+    margin-bottom: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    border-bottom: 1px dashed #ccc;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 30px;
+}
+#content p, #content code{
+    line-height: 30px;
+}
+#content .inner{
+    margin: 40px 20px;
+}
+#content pre{
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    margin: 0 40px 20px 20px;
+}
+#content code{
+    font-size: 13px;
+    font-family: 'Droid Sans Mono', 'Courier New', mono;
+}
+#content a{
+    color: #000;
+    border-bottom: 1px solid #333;
+}
+a:hover,
+#content a:hover {
+    text-shadow: 0px 0px 4px #38a;
+    border-bottom: none;
+}
+
+/* end bodytext */
