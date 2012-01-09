@@ -3,6 +3,10 @@
     It's only CSS after all :)
  */
 
+/* BASE */
+::-moz-selection { background: #944; color: #fff; text-shadow: none; }
+::selection { background: #944; color: #fff; text-shadow: none; }
+
 /* LAYOUT */
 html{
     background: #fff url('../img/mesh.png') repeat top center;
@@ -35,27 +39,27 @@ nav, footer{
 #logo{
     border: none;
     float: left;
-    font-family: 'Cabin Sketch', Helvetica, Arial, sans-serif;
-    font-size: 120px;
+    font-family: 'Aladin', Helvetica, Arial, sans-serif;
+    font-size: 130px;
 }
-#logo a,
-#logo a:link,
-#logo a:visited { color: #555; }
-#logo a:active { color: #500; }
-#logo a:hover { color: #38a; text-shadow: 0px 0px 10px #ccc;}
-#logo a {
+#logo a, footer a,
+#logo a:link, footer a:link,
+#logo a:visited, footer a:visited{ color: #38a; text-shadow: 0px 0px 10px #ccc;}
+#logo a:active, footer a:active{ color: #500; }
+#logo a:hover, footer a:hover{ color: #944; }
+#logo a, footer a{
     text-decoration: none;
 }
 #tagline{
     float: right;
-    font-family: 'Short Stack', Tahoma, Arial, sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
+    font-family: "Antic", Tahoma, Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 28px;
     text-align: right;
     text-shadow: 0px 0px 1px #777;
 }
 #tagline p{
-    margin-bottom:20px;
+    margin-bottom:5px;
 }
 /* end header/logo */
 
@@ -75,13 +79,11 @@ nav li a{
     padding: 9px 20px 11px;
 }
 nav li a,
-nav li a:link { color: #000;}
+nav li a:link { color: #000; text-decoration: none;}
 nav li a:visited { color: #000; }
 nav li a:active { color: #500; }
 nav li a:hover { color: #555; background-color: #fff; text-shadow: 0px 0px 4px #38a;}
-nav li a {
-    text-decoration: none;
-}
+
 body#home nav .home,
 body#me nav .me,
 body#projects nav .projects{
@@ -110,7 +112,8 @@ h1,h2,h3,h4,h5,h6, #content p{
     margin-bottom: 20px;
 }
 h1,h2,h3,h4,h5,h6{
-    border-bottom: 1px dashed #ccc;
+    color: #944;
+    text-shadow: 0px 0px 10px #ccc;
 }
 h1{
     font-size: 40px;
@@ -135,13 +138,12 @@ h2{
     font-family: 'Droid Sans Mono', 'Courier New', mono;
 }
 #content a{
-    color: #000;
-    border-bottom: 1px solid #333;
+    color: #38a;
+    text-decoration: none;
 }
 a:hover,
 #content a:hover {
-    text-shadow: 0px 0px 4px #38a;
-    border-bottom: none;
+    text-decoration: underline;
 }
 
 /* end bodytext */
