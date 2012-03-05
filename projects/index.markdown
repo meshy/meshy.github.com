@@ -8,7 +8,7 @@ title: Meshy projects.
 
 ## Gubha
 
-As mentioned on [my bio page](/me/), I am one of the Technical Director of [Gubha](http://gubha.com/), an cutting-edge Oxford-based web-development startup.
+As mentioned on [my bio page](/), I am one of the Technical Director of [Gubha](http://gubha.com/), an cutting-edge Oxford-based web-development startup.
 
 ## LINKREASE
 
