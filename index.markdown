@@ -6,7 +6,11 @@ title: Meshy. Freelance web. Open source goodies.
 
 # Hi. I'm Charlie Denton,
 
-I am a Developer at [Incuna](http://incuna.com/). I do a lot of web development, have a passion for linux, python and free (open-source) software. These are my ramblings.
+I am a Developer at [Incuna](http://incuna.com/), and one of the developers of
+the django class-based views reference tool [CCBV](http://ccbv.co.uk/).
+I do a lot of web development, have a passion for linux, python and free
+(open-source) software. These are my sparse ramblings.
 
-Expect handy little programming snippets, the occasional rant, and shameless promotion of myself and [my projects](/projects/).
+Expect handy little programming snippets, the occasional rant, and shameless
+promotion of myself and [my projects](/projects/).
 
