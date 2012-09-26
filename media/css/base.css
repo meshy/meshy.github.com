@@ -69,6 +69,7 @@ nav, footer{
 nav{
     overflow: auto;
     font-size: 18px;
+    line-height: 18px;
     zoom: 1;
 }
 nav ul{
@@ -126,10 +127,12 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
     font-size: 40px;
+    line-height: 40px;
     margin-bottom: 30px;
 }
 h2{
     font-size: 30px;
+    line-height: 30px;
 }
 #content p,
 #content code,
