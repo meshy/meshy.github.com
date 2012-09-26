@@ -14,3 +14,8 @@ I do a lot of web development, have a passion for linux, python and free
 Expect handy little programming snippets, the occasional rant, and shameless
 promotion of myself and [my projects](/projects/).
 
+## Me on other websites:
+
+* [Github](http://github.com/meshy).
+* [Stack Overflow](http://stackoverflow.com/users/400691/meshy).
+* [Twitter](http://twitter.com/meshy).
