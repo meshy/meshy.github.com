@@ -69,6 +69,9 @@ nav{
     font-size: 18px;
     zoom: 1;
 }
+nav ul{
+    padding-left: 0;
+}
 nav li{
     float: left;
     list-style: none;
