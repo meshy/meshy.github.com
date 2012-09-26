@@ -111,7 +111,10 @@ body{
     font-family: 'Antic', Tahoma, Arial, sans-serif;
     font-size: 18px;
 }
-h1,h2,h3,h4,h5,h6, #content p{
+h1,h2,h3,h4,h5,h6,
+#content p,
+#content ol,
+#content ul{
     margin-bottom: 20px;
 }
 h1,h2,h3,h4,h5,h6{
@@ -125,7 +128,10 @@ h1{
 h2{
     font-size: 30px;
 }
-#content p, #content code{
+#content p,
+#content code,
+#content ol,
+#content ul{
     line-height: 30px;
 }
 #content .inner{
