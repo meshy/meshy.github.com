@@ -61,7 +61,7 @@ nav, footer{
     text-shadow: 0px 0px 1px #777;
 }
 #tagline p{
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 /* end header/logo */
 
@@ -113,7 +113,7 @@ footer .inner{
 body{
     font-family: 'Antic', Tahoma, Arial, sans-serif;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 30px;
 }
 h1,h2,h3,h4,h5,h6,
 #content p,
@@ -132,13 +132,6 @@ h1{
 }
 h2{
     font-size: 30px;
-    line-height: 30px;
-}
-#content p,
-#content code,
-#content ol,
-#content ul{
-    line-height: 30px;
 }
 #content .inner{
     margin: 40px 20px;
