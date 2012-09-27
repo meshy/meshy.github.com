@@ -8,7 +8,7 @@ title: Meshy. Freelance web. Open source goodies.
 
 I am a python programmer. I work with [django](https://www.djangoproject.com)
 at [Incuna](http://incuna.com/). If you like django, you might like my
-classy class-based-views reference tool [CCBV](http://ccbv.co.uk/).
+"classy class-based-views" reference tool, [CCBV](http://ccbv.co.uk/).
 I have a passion for linux, python and free (as in speech) software.
 
 These are my (sparse) ramblings. Expect handy programming snippets, the occasional
