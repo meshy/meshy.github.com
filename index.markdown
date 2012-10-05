@@ -10,7 +10,6 @@ I am a English python developer.
 I work with [django](https://www.djangoproject.com) at [Incuna](http://incuna.com/).
 I have a passion for linux, python, and free (as in speech) software.
 If you like django, you might like my "classy class-based-views" reference tool, [CCBV](http://ccbv.co.uk/).
-
 These are my (sparse) ramblings.
 
 ## Me on other websites:
