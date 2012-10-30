@@ -15,5 +15,5 @@ These are my (sparse) ramblings.
 ## Me on other websites:
 
 * [Twitter](http://twitter.com/meshy).
-* [Github](http://github.com/meshy).
+* [Github](http://git.io/meshy).
 * [Stack Overflow](http://stackoverflow.com/users/400691/meshy).
