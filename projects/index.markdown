@@ -17,11 +17,13 @@ To see it in action, go to [ccbv.co.uk](http://ccbv.co.uk/).
 
 ## LINKREASE
 
-[LINKREASE](http://github.com/meshy/linkrease) is a real-time-strategy
+A real-time-strategy
 game that started off as my Computer Science BSc dissertation project.
 As a conquest game it is in the family of [FreeOrion](http://www.freeorion.org/),
 [Eufloria](http://www.eufloria-game.com/), and [Galcon](http://www.galcon.com/fusion/).
 It's written in [Python](http://www.python.org/) using [Cocos2D](http://cocos2d.org/).
+
+The [code for LINKREASE](http://github.com/meshy/linkrease) is on github.
 
 ## This website
 The framework of this website is written in HTML5, the content of each page is
