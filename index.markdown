@@ -4,7 +4,7 @@ bodyid: me
 title: Meshy. Freelance web. Open source goodies.
 ---
 
-# Hi. I'm Charlie Denton,
+# Hi. I'm Charlie Denton.
 
 I am a English python developer.
 I work with [django](https://www.djangoproject.com) at [Incuna](http://incuna.com/).
