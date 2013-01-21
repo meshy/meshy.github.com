@@ -1,4 +1,4 @@
-/*  Hello, Nosy ;P
+/*  Hello! ;P
     Feel free to copy, use, or derive from anything you find in this CSS.
     It's only CSS after all :)
  */
@@ -91,8 +91,9 @@ nav li a:active { color: #500; }
 nav li a:hover { color: #555; background-color: #fff; text-shadow: 0px 0px 4px #38a;}
 
 body#me nav .me,
-body#posts nav .posts,
-body#projects nav .projects{
+body#ccbv nav .ccbv,
+body#meta nav .meta,
+body#linkrease nav .linkrease{
     background-color: #f3f3f3;
 }
 

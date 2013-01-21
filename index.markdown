@@ -1,15 +1,16 @@
 ---
 layout: main
 bodyid: me
-title: Meshy. Freelance web. Open source goodies.
+title: Charlie Denton
 ---
 
 # Hi. I'm Charlie Denton.
 
-I am a English python developer.
-I work with [django](https://www.djangoproject.com) at [Incuna](http://incuna.com/).
+I'm a python developer from Oxford, UK.
+I work with [django](http://djangoproject.com) at [incuna](http://incuna.com).
 I have a passion for linux, python, and free (as in speech) software.
-If you like django, you might like my "classy class-based-views" reference tool, [CCBV](http://ccbv.co.uk/).
+
+If you're a django developer too, you might like to read about my "[Classy Class-Based Views](/ccbv/)" reference tool.
 
 ## Me on other websites:
 
