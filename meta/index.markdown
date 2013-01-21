@@ -6,7 +6,7 @@ title: Meta
 
 # This website
 The layout of this website is written in HTML5, the content of each page is
-written in Markdown, the [fonts are from Google](http://www.google.com/webfonts)
+written in Markdown, the [fonts are from Google](http://www.google.com/webfonts),
 it's hosted on [Github Pages](http://pages.github.com),
 and the fantastic [Jekyll](http://github.com/mojombo/jekyll) knits everything together.
 
