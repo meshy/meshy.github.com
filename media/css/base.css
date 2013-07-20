@@ -44,9 +44,17 @@ nav, footer{
 }
 #logo a, footer a,
 #logo a:link, footer a:link,
-#logo a:visited, footer a:visited{ color: #38a; text-shadow: 0px 0px 10px #ccc;}
-#logo a:active, footer a:active{ color: #500; }
-#logo a:hover, footer a:hover{ color: #944; }
+#logo a:visited, footer a:visited{
+    color: #38a;
+    text-shadow: 0px 0px 10px #ccc;
+    transition: 1s;
+}
+#logo a:active, footer a:active{
+    color: #500;
+}
+#logo a:hover, footer a:hover{
+    color: #944;
+}
 #logo a, footer a{
     text-decoration: none;
 }
