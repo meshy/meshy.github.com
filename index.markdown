@@ -6,11 +6,13 @@ title: Charlie Denton
 
 # Hi. I'm Charlie Denton.
 
-I'm a python developer from Oxford, UK.
-I work with [django](http://djangoproject.com) at [incuna](http://incuna.com).
-I have a passion for linux, python, and free (as in speech) software.
+I'm a senior developer at [incuna](http://incuna.com) in Oxford (UK) who
+recently graduated from Oxford Brookes University with a degree in Computer Science.
 
-If you're a django developer too, you might like to read about my "[Classy Class-Based Views](/ccbv/)" reference tool.
+I primarily work with [django](http://djangoproject.com) in python but
+also enjoy playing with tornado, linux, and free (as in speech) software.
+
+Also a django developer? Read about "[Classy Class-Based Views](/ccbv/)".
 
 ## Me on other websites:
 
