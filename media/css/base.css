@@ -1,4 +1,14 @@
-/* HEADER/LOGO */
+a, .btn{
+    transition: 0.5s;
+    color: #38a;
+}
+a:active{
+    color: #500;
+}
+a:hover, .btn:hover{
+    color: #944;
+    text-decoration: none;
+}
 header{
     color: #555;
     margin-bottom: 10px;
@@ -6,27 +16,9 @@ header{
 #logo{
     border: none;
     font-family: 'Aladin', Helvetica, Arial, sans-serif;
-    font-size: 130px;
-    line-height: 130px;
+    font-size: 100px;
 }
-#logo a,
-#logo a:link,
-#logo a:visited{
-    color: #38a;
-    text-shadow: 0px 0px 10px #ccc;
-    transition: 0.5s;
-}
-#logo a:active{
-    color: #500;
-}
-#logo a:hover{
-    color: #944;
-    text-decoration: none;
-}
-
-body#me nav .me,
-body#ccbv nav .ccbv,
-body#meta nav .meta,
-body#linkrease nav .linkrease{
-    background-color: #f3f3f3;
+.links{
+    margin-top: 22px;
+    padding-right: none;
 }

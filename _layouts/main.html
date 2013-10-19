@@ -8,13 +8,27 @@
     <link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
   </head>
 
-  <body id='{{ page.bodyid }}'>
+  <body>
     <div class='container'>
-      <header class='row'>
+      <header class='clearfix'>
+        <div class='links btn-group pull-right'>
+          <a class='btn btn-default' target='_blank' href='http://git.io/meshy'>
+            GitHub
+          </a>
+          <a class='btn btn-default' target='_blank' href='http://stackoverflow.com/users/400691/meshy'>
+            Stack Overflow
+          </a>
+          <a class='btn btn-default' target='_blank' href='http://twitter.com/meshy'>
+            Twitter
+          </a>
+          <a class='btn btn-default' target='_blank' href='mailto://website@meshy.co.uk'>
+            Email
+          </a>
+        </div>
         <h1 id='logo'><a href='/'>Meshy</a></h1>
       </header>
-      <nav class='row'>
-        <ul class='nav nav-pills nav-justified'>
+      <nav>
+        <ul class='nav nav-tabs nav-justified'>
           <li class='{% if page.bodyid == "me" %}active{% endif %}'>
             <a href='/'>Me</a>
           </li>
@@ -26,12 +40,8 @@
           </li>
         <ul>
       </nav>
-      <article class="row">
-        <div id='content'>
-          <div class='inner'>
-            {{ content }}
-          </div>
-        </div>
+      <article>
+        {{ content }}
       </article>
       <footer></footer>
     </div>

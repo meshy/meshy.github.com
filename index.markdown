@@ -13,9 +13,3 @@ I primarily work with [django](http://djangoproject.com) in python but
 also enjoy playing with tornado, linux, and free (as in speech) software.
 
 Also a django developer? Read about "[Classy Class-Based Views](/ccbv/)".
-
-## Me on other websites:
-
-* [Twitter](http://twitter.com/meshy).
-* [Github](http://git.io/meshy).
-* [Stack Overflow](http://stackoverflow.com/users/400691/meshy).
