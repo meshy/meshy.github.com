@@ -1,101 +1,28 @@
-/*  Hello! ;P
-    Feel free to copy, use, or derive from anything you find in this CSS.
-    It's only CSS after all :)
- */
-
-/* BASE */
-::-moz-selection { background: #944; color: #fff; text-shadow: none; }
-::selection { background: #944; color: #fff; text-shadow: none; }
-
-/* LAYOUT */
-html{
-    font-size: 100.001%;
-    overflow-y: scroll;
-}
-#wrap{
-    max-width: 790px;
-    margin: 0 auto;
-}
-header, nav, #content, footer{
-    margin: 20px 0;
-}
-#content{
-    border: 1px solid #c7c7c7;
-    background-color: #fff;
-}
-/* end layout */
-
 /* HEADER/LOGO */
 header{
     color: #555;
-    height: 140px;
-}
-nav, footer{
-    background-color: #fafafa;
-    border: 1px solid #ddd;
-    clear: both;
+    margin-bottom: 10px;
 }
 #logo{
     border: none;
-    float: left;
     font-family: 'Aladin', Helvetica, Arial, sans-serif;
     font-size: 130px;
     line-height: 130px;
 }
-#logo a, footer a,
-#logo a:link, footer a:link,
-#logo a:visited, footer a:visited{
+#logo a,
+#logo a:link,
+#logo a:visited{
     color: #38a;
     text-shadow: 0px 0px 10px #ccc;
     transition: 0.5s;
 }
-#logo a:active, footer a:active{
+#logo a:active{
     color: #500;
 }
-#logo a:hover, footer a:hover{
+#logo a:hover{
     color: #944;
-}
-#logo a, footer a{
     text-decoration: none;
 }
-#tagline{
-    float: right;
-    font-family: "Antic", Tahoma, Arial, sans-serif;
-    font-size: 25px;
-    line-height: 25px;
-    margin-top: 28px;
-    text-align: right;
-    text-shadow: 0px 0px 1px #777;
-}
-#tagline p{
-    margin-bottom: 5px;
-}
-/* end header/logo */
-
-/* NAV */
-nav{
-    overflow: auto;
-    font-size: 18px;
-    line-height: 18px;
-    zoom: 1;
-}
-nav ul{
-    padding-left: 0;
-}
-nav li{
-    float: left;
-    list-style: none;
-    border-right: 1px solid #ddd;
-}
-nav li a{
-    display: inline-block;
-    padding: 9px 20px 11px;
-}
-nav li a,
-nav li a:link { color: #000; text-decoration: none;}
-nav li a:visited { color: #000; }
-nav li a:active { color: #500; }
-nav li a:hover { color: #555; background-color: #fff; text-shadow: 0px 0px 4px #38a;}
 
 body#me nav .me,
 body#ccbv nav .ccbv,
@@ -103,67 +30,3 @@ body#meta nav .meta,
 body#linkrease nav .linkrease{
     background-color: #f3f3f3;
 }
-
-/* end nav */
-
-/* FOOTER */
-footer{
-    font-size: 14px;
-    text-align: right;
-    height: 40px;
-}
-footer .inner{
-    margin: 14px 30px;
-}
-/* end footer */
-
-/* BODYTEXT */
-body{
-    font-family: 'Antic', Tahoma, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 30px;
-}
-h1,h2,h3,h4,h5,h6,
-#content p,
-#content ol,
-#content ul{
-    margin-bottom: 20px;
-}
-h1,h2,h3,h4,h5,h6{
-    color: #944;
-    text-shadow: 0px 0px 10px #ccc;
-}
-h1{
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 30px;
-}
-h2{
-    font-size: 30px;
-}
-#content .inner{
-    margin: 40px 20px 38px;
-}
-#content pre{
-    border: 1px solid #dfdfdf;
-    padding: 20px;
-    margin: 0 40px 20px 20px;
-}
-#content code{
-    font-size: 13px;
-    font-family: 'Droid Sans Mono', 'Courier New', mono;
-}
-#content a{
-    color: #38a;
-    text-decoration: none;
-}
-a:hover,
-#content a:hover {
-    text-decoration: underline;
-}
-
-ol, ul {
-    padding-left: 20px;
-}
-
-/* end bodytext */

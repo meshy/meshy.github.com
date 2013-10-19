@@ -1,45 +1,42 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang='en-GB'>
   <head>
     <title>{{ page.title }} · &ldquo;Meshy&rdquo;</title>
-    <meta charset="utf-8">
-    <link href="/media/css/reset.css" rel="stylesheet">
-    <link href="/media/css/base.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Aladin|Droid+Sans+Mono|Antic' rel='stylesheet'>
-    <link href="/media/css/pygments.default.css" rel="stylesheet">
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+    <meta charset='utf-8'>
+    <link href='//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='/media/css/base.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
   </head>
 
-  <body id="{{ page.bodyid }}">
-    <div id="wrap">
-      <header>
-        <h1 id="logo"><a href="/">Meshy</a></h1>
-        <div id="tagline">
-          <p>Freelance web.</p>
-          <p>Open source goodies.</p>
-          <p>Shameless self-promotion.</p>
-        </div>
+  <body id='{{ page.bodyid }}'>
+    <div class='container'>
+      <header class='row'>
+        <h1 id='logo'><a href='/'>Meshy</a></h1>
       </header>
-      <nav>
-        <div class="inner">
-          <ul>
-            <li><a class="me" href="/">Me</a></li>
-            <li><a class="ccbv" href="/ccbv/">Classy Class-Based Views</a></li>
-            <li><a class="linkrease" href="/linkrease/">LINKREASE</a></li>
-            <li><a class="meta" href="/meta/">Meta</a></li>
-          <ul>
-        </div>
+      <nav class='row'>
+        <ul class='nav nav-pills nav-justified'>
+          <li class='{% if page.bodyid == "me" %}active{% endif %}'>
+            <a href='/'>Me</a>
+          </li>
+          <li class='{% if page.bodyid == "ccbv" %}active{% endif %}'>
+            <a href='/ccbv/'>Classy Class-Based Views</a>
+          </li>
+          <li class='{% if page.bodyid == "linkrease" %}active{% endif %}'>
+            <a href='/linkrease/'>LINKREASE</a>
+          </li>
+          <li class='{% if page.bodyid == "meta" %}active{% endif %}'>
+            <a href='/meta/'>Meta</a>
+          </li>
+        <ul>
       </nav>
-        <div id="content">
-          <div class="inner">
+      <article class="row">
+        <div id='content'>
+          <div class='inner'>
             {{ content }}
           </div>
         </div>
-      <footer>
-        <div class="inner">
-          &nbsp;
-        </div>
-      </footer>
+      </article>
+      <footer></footer>
     </div>
   </body>
 </html>
