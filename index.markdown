@@ -6,8 +6,6 @@ title: Charlie Denton
 
 # Hi, I'm Charlie Denton.
 
-Pretty much no-one calls me "Meshy", but maybe they will some day. `:)`
-
 I work as senior developer at [Incuna](http://incuna.com) in Oxford (UK) and
 am a Computer Science graduate of Oxford Brookes University.
 I like to toy with shiny new stuff (recently redis, tornado and angular)
