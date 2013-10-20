@@ -1,12 +1,12 @@
 a, .btn{
-    transition: 0.5s;
-    color: #38a;
+    color: #944;
+    transition: 0.4s;
 }
 a:active{
     color: #500;
 }
 a:hover, .btn:hover{
-    color: #944;
+    color: #38a;
     text-decoration: none;
 }
 header{
@@ -21,4 +21,7 @@ header{
 .links{
     margin-top: 22px;
     padding-right: none;
+}
+.post-date{
+    margin-top: 17px;
 }

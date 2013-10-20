@@ -4,11 +4,20 @@ bodyid: me
 title: Charlie Denton
 ---
 
-# Hi. I'm Charlie Denton.
+# Hi, I'm Charlie Denton.
 
-I'm a senior developer at [Incuna](http://incuna.com) in Oxford (UK) who
-recently graduated from Oxford Brookes University with a degree in Computer Science.
-I primarily work with [django](http://djangoproject.com) in python on linux but
-have also been playing with redis, tornado and angular.
+Pretty much no-one calls me "Meshy", but maybe they will some day. `:)`
 
-Also a django developer? Read about "[Classy Class-Based Views](/ccbv/)".
+I work as senior developer at [Incuna](http://incuna.com) in Oxford (UK) and
+am a Computer Science graduate of Oxford Brookes University.
+I like to toy with shiny new stuff (recently redis, tornado and angular)
+but primarily work with [django](http://djangoproject.com) in
+[python](http://www.python.org/) on [linux](http://manjaro.org).
+
+
+## CCBV
+
+If you're a django developer, check out my reference tool for django,
+[Classy Class-Based Views](http://ccbv.co.uk/). It flattens the new <i>class-based
+generic views</i> to a page each, making it easy to read only the code you need to see.
+Now with diagrams!
