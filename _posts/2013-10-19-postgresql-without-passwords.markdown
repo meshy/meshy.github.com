@@ -6,6 +6,7 @@ description: "How to set up PostgreSQL 9.1 for local user access/tests on Ubuntu
 
 <span class='text-muted pull-right post-date'>{{ page.date | date:"%A %-d %B %Y" }}</span>
 # PostgreSQL without passwords <br><small>How to set up PostgreSQL 9.1 for local user access/tests on Ubuntu Linux</small>
+
 Wouldn't it be nice if you didn't need to type out that nasty
 `sudo -u postgres pqsl` *and* then enter a password every time you wanted to
 use a local development database? Well, if you don't mind every Tom, Dick and
