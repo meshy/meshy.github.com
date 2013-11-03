@@ -1,3 +1,2 @@
-pygments: true
 markdown: redcarpet
 permalink: /posts/:title
