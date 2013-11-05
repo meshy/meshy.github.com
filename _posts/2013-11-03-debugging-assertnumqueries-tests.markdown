@@ -14,8 +14,7 @@ I expect you have a test that looks something like this:
     class GoodTestCase(django.test.TestCase):
         def fantastic_test(self):
             with self.assertNumQueries(2):
-                # Business logic here
-                thing.do_fantastic_stuff()
+                thing.do_fantastic_stuff()  # Queries happen here.
 
 ..and unexpectedly you're getting an error that looks a bit like this:
 
@@ -36,14 +35,9 @@ Okay, so we know something's wrong, but we don't know what. How do we find out w
 
     class GoodTestCase(django.test.TestCase):
         def fantastic_test(self):
-            # Turn DEBUG on so we can see the queries.
-            settings.DEBUG = True
             with self.assertNumQueries(2):
-                # Reset the list of recorded queries.
-                connection.queries = []
-                # Business logic here
-                thing.do_fantastic_stuff()
-                # Print out our recorded queries!
-                print(connection.queries)
-                # Turn DEBUG back off (as is default for tests).
-                settings.DEBUG = False
+                settings.DEBUG = True  # We can see the queries with DEBUG on.
+                connection.queries = []  # Reset the list of recorded queries.
+                thing.do_fantastic_stuff()  # Queries happen here.
+                print(connection.queries)  # Print out our recorded queries!
+                settings.DEBUG = False  # Turn DEBUG back off.
