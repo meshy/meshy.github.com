@@ -66,4 +66,4 @@ I think so too, so here's my definition of `PrintQueries`:
             for query in connection.queries[self.so_far:]:
                 print(query['sql'])  # Print our queries.
 
-Simples! `;)`
+I hope you find this useful! `:)`
