@@ -46,7 +46,7 @@ When you run this, you should get the executed queries printed in your test outp
     SELECT (1) AS "a" FROM "great_model" WHERE "great_model"."id" = 15  LIMIT 1
     UPDATE "great_model" SET "field" = 1 WHERE "great_model"."id" = 15
 
-Nice, eh? That should be enough to set you on the path of debugging the issue, but I feel like going a little further (too far?) and making it pretty. Would it have been nicer to run the following? (Note the extra context manager.)
+Nice, eh? That should be enough to set you on the path of debugging the issue, but I feel like going a little further (too far?) and making it pretty. Wouldn't it have been nicer to run the following? (Note the extra context manager.)
 
     class GoodTestCase(django.test.TestCase):
         def fantastic_test(self):
