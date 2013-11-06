@@ -12,16 +12,16 @@ Tests with `assertNumQueries` failing? Want a way to inspect your SQL queries in
 I expect you have a test that looks something like this:
 
     class GoodTestCase(django.test.TestCase):
-        def fantastic_test(self):
+        def test_fantastic_stuff(self):
             with self.assertNumQueries(1):
                 thing.do_fantastic_stuff()  # Queries happen here.
 
 ..and unexpectedly you're getting an error that looks a bit like this:
 
-    FAIL: fantastic_test (greatproject.tests.GoodTestCase)
+    FAIL: test_fantastic_stuff (greatproject.tests.GoodTestCase)
     ------------------------------------------------------
     Traceback (most recent call last):
-      File "/greatproject/tests.py", line 130, in fantastic_test
+      File "/greatproject/tests.py", line 130, in test_fantastic_stuff
         thing.do_fantastic_stuff()
       File "/path/to/django/test/testcases.py", line 105, in __exit__
         executed, self.num
@@ -33,7 +33,7 @@ Okay, so we know something's wrong, but we don't know what. How do we find out w
     from django.db import connection
 
     class GoodTestCase(django.test.TestCase):
-        def fantastic_test(self):
+        def test_fantastic_stuff(self):
             with self.assertNumQueries(1):
                 # Get num queries run before.
                 so_far = len(connection.queries)
@@ -49,7 +49,7 @@ When you run this, you should get the executed queries printed in your test outp
 Nice, eh? That should be enough to set you on the path of debugging the issue, but I feel like going a little further (too far?) and making it pretty. Wouldn't it have been nicer to run the following? (Note the extra context manager.)
 
     class GoodTestCase(django.test.TestCase):
-        def fantastic_test(self):
+        def test_fantastic_stuff(self):
             with self.assertNumQueries(1), PrintQueries():
                 thing.do_fantastic_stuff()  # Queries happen here.
 
