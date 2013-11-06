@@ -38,8 +38,8 @@ Okay, so we know something's wrong, but we don't know what. How do we find out w
                 # Get num queries run before.
                 so_far = len(connection.queries)
                 thing.do_fantastic_stuff()  # Queries happen here.
-                for q in connection.queries[so_far:]:
-                    print(q['sql'])  # Print our queries
+                for query in connection.queries[so_far:]:
+                    print(query['sql'])  # Print our queries
 
 When you run this, you should get the executed queries printed in your test output:
 
@@ -63,7 +63,7 @@ I think so too, so here's my definition of `PrintQueries`:
             self.so_far = len(connection.queries)
 
         def __exit__(self, type, value, traceback):
-            for q in connection.queries[self.so_far:]:
-                print(q['sql'])  # Print our queries.
+            for query in connection.queries[self.so_far:]:
+                print(query['sql'])  # Print our queries.
 
 Simples! `;)`
