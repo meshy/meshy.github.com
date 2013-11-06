@@ -13,7 +13,7 @@ I expect you have a test that looks something like this:
 
     class GoodTestCase(django.test.TestCase):
         def fantastic_test(self):
-            with self.assertNumQueries(2):
+            with self.assertNumQueries(1):
                 thing.do_fantastic_stuff()  # Queries happen here.
 
 ..and unexpectedly you're getting an error that looks a bit like this:
@@ -26,18 +26,44 @@ I expect you have a test that looks something like this:
       File "/path/to/django/test/testcases.py", line 105, in __exit__
         executed, self.num
 
-    AssertionError: 3 queries executed, 2 expected
+    AssertionError: 2 queries executed, 1 expected
 
-Okay, so we know something's wrong, but we don't know what. How do we find out what that extra query is? Well, Django can show you the queries run, so lets throw some debug code in the test to print them out...
+Okay, so we know something's wrong, but we don't know what. How do we find out what that extra query is? Well, Django can show you the queries run if you just ask it nicely. Lets throw some debug code in the test to print them out...
 
-    from django.conf import settings
     from django.db import connection
 
     class GoodTestCase(django.test.TestCase):
         def fantastic_test(self):
-            with self.assertNumQueries(2):
-                settings.DEBUG = True  # We can see the queries with DEBUG on.
-                connection.queries = []  # Reset the list of recorded queries.
+            with self.assertNumQueries(1):
+                # Get num queries run before.
+                so_far = len(connection.queries)
                 thing.do_fantastic_stuff()  # Queries happen here.
-                print(connection.queries)  # Print out our recorded queries!
-                settings.DEBUG = False  # Turn DEBUG back off.
+                for q in connection.queries[so_far:]:
+                    print(q['sql'])  # Print our queries
+
+When you run this, you should get the executed queries printed in your test output:
+
+    SELECT (1) AS "a" FROM "great_model" WHERE "great_model"."id" = 15  LIMIT 1
+    UPDATE "great_model" SET "field" = 1 WHERE "great_model"."id" = 15
+
+Nice, eh? That should be enough to set you on the path of debugging the issue, but I feel like going a little further (too far?) and making it pretty. Would it have been nicer to run the following? (Note the extra context manager.)
+
+    class GoodTestCase(django.test.TestCase):
+        def fantastic_test(self):
+            with self.assertNumQueries(1), PrintQueries():
+                thing.do_fantastic_stuff()  # Queries happen here.
+
+I think so too, so here's my definition of `PrintQueries`:
+
+    from django.db import connection
+
+    class PrintQueries(object):
+        def __enter__(self):
+            # Get num queries run before.
+            self.so_far = len(connection.queries)
+
+        def __exit__(self, type, value, traceback):
+            for q in connection.queries[self.so_far:]:
+                print(q['sql'])  # Print our queries.
+
+Simples! `;)`
