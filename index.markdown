@@ -6,10 +6,9 @@ title: Charlie Denton
 
 # Hi, I'm Charlie Denton.
 
-I work as senior developer at [Incuna](http://incuna.com) in Oxford (UK) and
-am a Computer Science graduate of Oxford Brookes University.
+I work as senior developer at [Incuna](http://incuna.com) in Oxford (UK).
 I like to toy with shiny new stuff (recently redis, tornado and angular)
-but primarily work with [django](http://djangoproject.com) in
+and primarily work with [django](http://djangoproject.com) in
 [python](http://www.python.org/) on [linux](http://manjaro.org).
 
 
