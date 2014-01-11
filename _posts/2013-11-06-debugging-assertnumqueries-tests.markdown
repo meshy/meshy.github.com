@@ -7,6 +7,11 @@ description: "How to see exactly what queries have run in a Django test"
 <span class='text-muted pull-right post-date'>{{ page.date | date:"%A %-d %B %Y" }}</span>
 # Debugging assertNumQueries tests<br><small>How to see exactly what queries have run in a Django test</small>
 
+<div class="alert alert-info">
+    <strong>Update:</strong>
+    Thanks to <a class='alert-link' href='https://twitter.com/dominicrodger/status/412713091877437440'>Dominic Rodger</a> this behaviour will be in Django 1.7+.
+</div>
+
 Tests with `assertNumQueries` failing? Want a way to inspect your SQL queries in your tests? I have an answer.
 
 I expect you have a test that looks something like this:
