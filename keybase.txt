@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/meshy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://meshy.co.uk
+  * I am meshy (https://keybase.io/meshy) on keybase.
+  * I have a public key with fingerprint D762 C406 E09F 2F48 C3CC  60DC 99DA 12CD 7A25 C1B9
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.0"
+        },
+        "key": {
+            "fingerprint": "d762c406e09f2f48c3cc60dc99da12cd7a25c1b9",
+            "host": "keybase.io",
+            "key_id": "99DA12CD7A25C1B9",
+            "uid": "3d09e1fface071a85d95ce9497771c00",
+            "username": "meshy"
+        },
+        "merkle_root": {
+            "ctime": 1400939868,
+            "hash": "c80975d04caf85859cbf67de17ffd66900242f128cd32a7d349cb5d556b682cfd66ecad65cd7d9a070d01cabacb0b6640d7d92bc736e4a6a3c1d09b0ef9dd1e1",
+            "seqno": 11374
+        },
+        "service": {
+            "hostname": "meshy.co.uk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1400939979,
+    "expire_in": 157680000,
+    "prev": "a004d8107305547fa938daa7e372882be104c4d34000328898dc5cfd4e0ef990",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+owFVUn1MlVUchqsQEE7sQjhkSdcrS7xczvv9HkX5nK42JwEqVxR833POCy8X7nu7
+9wIiHxEUsxrLxEhmkPmRaKjpBjGZW2JjEdQIxTQ1P4Y6laUoSTVivS+zpeevc36/
+5/ec53nO2TFnlp/Jv+Y8H1OfmvGH/8Bd2S+r9uBApUXWcIVlWaUFFavE5TN2LqmE
+WJZZnKRClrzErmoxLg0Te5E35inGZikjHq+quXQUsLN2YKm2GXBjWFFdBcTj9qgG
+lwULPI1YwBMAFVphRcQgxAOMIMQSRSMsSDSHKBnqlIWa1/fcrZYZznwV61UI01Mo
+Oi1dSKG5NCrVwJfONBgMIKEURUIECJQkchhyiEAWCoJAIQAMoJd4nloqId7CCkNs
+CfE4i0m+R9NmHCOfavQpFgDIQJEXdTmSt1CfQCKAAocBiyRF5EQOIlnhBUwoQVEw
+z0MAaJZWKFpEmKElATOsjuAwx/EyL9LIwBAkYZ7TvWIoAQFgQCFJlpAMZJ5ngVGm
+ZSQwPGElXmIQpTuSAVEgxhShdP1e8pZL08VRjMBWG0dPmYqIIduI7FlndqTZS536
+iNuj+TSkFeuNQp/Pvcyw7KtwG8ByIufPULQjki+rLqy/17MPSunQ5+OAArRZyFa3
+6iH5qoHgBF4E+jLuIWU6pwQAi0UKCAzgOFZQJMiIWJIEwgi0KNIyofT8WD0bfYjR
+K1DEiNOzYYnhE4L/TdK6TqlAp/SqBS7JV+ohlur3TdGz/fxNfoEBJuPH+oUEh/33
+jd+wzJ2ONzvDpt5rzuwc78k8E5Va5hltCzUfaM5Hv3Zme5V9mTdqwqxrhyIjB2Nd
+4N02dn1YVoPzNj/qVa8HNTfFlgSlVKU6zPK63/bvaO26gEfsjffWxCb9jSeJuSDB
+X07MjYLyZHtR73BUcfefF+IqftLSB8vDHadCMocS5B82bV01vmCec13C5eHoJSbY
+GxB1wja+M6vR9+pYYFReQ95fXceDc+JObLx/VH680pbWn818vWjXvOVF7tDhmqR7
+Aw/MBxfc+iWp2bYyp45/lPxzZ4vTMzS58Bj+YvPDtmthRWfqN3d3nN2ekzgVOj3R
+avqkqf5qHxvyzaW9tXzdqT3xW0YaHGcvrU7dtaLl9OjFH8dAZcAK86E97v7oa0+s
+LSffdgeV9pl+dzS+UrLHCjaxE3Kybbb1s9GNwefik5LXf6lZu93tGxxNwvHF71R9
+mrF/8mW2o+5+Cfgu6OoHu2/71x0+unpO7sKBiJ7oIzUfLV08a07G2sTdyty4woBw
+80tT9rHum4+3XfHdaAlcOn/R6JXh/onpgq7AO6/1hh946Ag9/0L2mx3tq659zKVN
+XO8bjbVdObxlpzv3wZrxu8svt5YP/pPX1aA+4l8/dzp6+kZVZGPvrvZ7R2L4i5G1
+RTAp4tuIJdut07J88ub8F8V9x3o6KrcNfpV+qHLoc2nk9h3Hk+zvTaEf3urs3rsh
+8l8=
+=WlhO
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/meshy
+
+==================================================================
