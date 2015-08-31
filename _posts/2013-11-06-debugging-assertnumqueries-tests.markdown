@@ -4,8 +4,19 @@ title: "Debugging assertNumQueries tests"
 description: "How to see exactly what queries have run in a Django test"
 ---
 
-<span class='text-muted pull-right post-date'>{{ page.date | date:"%A %-d %B %Y" }}</span>
-# Debugging assertNumQueries tests<br><small>How to see exactly what queries have run in a Django test</small>
+<header class='post-title'>
+    <span class='-date'>
+        {{ page.date | date:"%A %-d %B %Y" }}
+    </span>
+    <h1>
+        <span class='-title'>
+            Debugging assertNumQueries tests
+        </span>
+        <small class='-subtitle'>
+            How to see exactly what queries have run in a Django test
+        </small>
+    </h1>
+</header>
 
 <div class="alert alert-info">
     <strong>Update:</strong>

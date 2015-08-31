@@ -4,8 +4,19 @@ title: "PostgreSQL without passwords"
 description: "How to set up PostgreSQL 9.1 for local user access/tests on Ubuntu Linux"
 ---
 
-<span class='text-muted pull-right post-date'>{{ page.date | date:"%A %-d %B %Y" }}</span>
-# PostgreSQL without passwords <br><small>How to set up PostgreSQL 9.1 for local user access/tests on Ubuntu Linux</small>
+<header class='post-title'>
+    <span class='-date'>
+        {{ page.date | date:"%A %-d %B %Y" }}
+    </span>
+    <h1>
+        <span class='-title'>
+            PostgreSQL without passwords
+        </span>
+        <small class='-subtitle'>
+            How to set up PostgreSQL 9.1 for local user access/tests on Ubuntu Linux
+        </small>
+    </h1>
+</header>
 
 Wouldn't it be nice if you didn't need to type out that nasty
 `sudo -u postgres pqsl` *and* then enter a password every time you wanted to

@@ -3,50 +3,54 @@
   <head>
     <meta charset='utf-8'>
     <title>{{ page.title }} · &ldquo;Meshy&rdquo;</title>
-    <link href='https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css' rel='stylesheet'>
-    <link href="/media/css/railscasts.css" rel="stylesheet">
-    <link href='/media/css/base.css' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+    <link href='/media/css/base.css' rel='stylesheet'>
+    <link href='/media/css/railscasts.css' rel='stylesheet'>
   </head>
 
   <body>
     <div class='container'>
-      <header class='clearfix'>
-        <div class='links btn-group pull-right'>
-          <a class='btn btn-default' href='https://github.com/meshy'>
+      <header>
+        <div class='top-links'>
+          <a class='-link' href='https://github.com/meshy'>
             GitHub
           </a>
-          <a class='btn btn-default' href='https://stackoverflow.com/users/400691/meshy'>
+          <a class='-link' href='https://stackoverflow.com/users/400691/meshy'>
             Stack Overflow
           </a>
-          <a class='btn btn-default' href='https://twitter.com/meshy'>
+          <a class='-link' href='https://twitter.com/meshy'>
             Twitter
           </a>
-          <a class='btn btn-default' href='mailto:website@meshy.co.uk'>
+          <a class='-link' href='mailto:website@meshy.co.uk'>
             Email
           </a>
         </div>
-        <h1 id='logo'><a href='/'>Meshy</a></h1>
+        <h1 class='site-logo'><a href='/'>Meshy</a></h1>
       </header>
       <nav>
-        <ul class='nav nav-tabs nav-justified'>
-          <li class='{% if page.bodyid == "me" %}active{% endif %}'>
-            <a href='/'>Me</a>
+        <ul class='site-nav'>
+          <li class='-item'>
+            <a href='/' class='-link {% if page.bodyid == "me" %}active{% endif %}'>
+                About
+            </a>
           </li>
-          <li class='{% if page.bodyid == "posts" %}active{% endif %}'>
-            <a href='/posts/'>Posts</a>
+          <li class='-item'>
+            <a href='/posts/' class='-link {% if page.bodyid == "posts" %}active{% endif %}'>
+                Posts
+            </a>
           </li>
-          <li class='{% if page.bodyid == "meta" %}active{% endif %}'>
-            <a href='/meta/'>Meta</a>
+          <li class='-item'>
+            <a href='/meta/' class='-link {% if page.bodyid == "meta" %}active{% endif %}'>
+                Meta
+            </a>
           </li>
-        <ul>
+        </ul>
       </nav>
       <article>
         {{ content }}
       </article>
-      <footer>
-          <hr/>
-          <p class='text-muted'>&copy; Charlie Denton</p>
+      <footer class='site-footer'>
+          <p class='-copy'>&copy; Charlie Denton</p>
       </footer>
     </div>
 

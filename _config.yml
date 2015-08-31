@@ -1,2 +1,4 @@
 markdown: redcarpet
 permalink: /posts/:title
+sass:
+    sass_dir: _sass
