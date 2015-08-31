@@ -5,14 +5,13 @@ title: Meta
 ---
 
 # This website
-The layout of this website is written in HTML5, the content of each page is
-written in Markdown, the [logo font](http://www.google.com/fonts/specimen/Aladin)
- is from [Google Fonts](http://www.google.com/webfonts), the styles are based on
-[Twitter Bootstrap](http://getbootstrap.com),
-it's hosted on [Github Pages](http://pages.github.com),
-and the fantastic [Jekyll](http://github.com/mojombo/jekyll) knits everything together.
+A number of technologies collide to create this website:
 
-Would you like to [read the code](http://github.com/meshy/meshy.github.com/)?
+- Each page is written in `Markdown`.
+- The styles are written in `SASS` building upon [Twitter Bootstrap](http://getbootstrap.com/) using the [`RSCSS`](https://github.com/rstacruz/rscss#readme) method.
+- [The code](http://github.com/meshy/meshy.github.com/) is stored on Github, and the rendered content is hosted on [Github Pages](http://pages.github.com).
+- [Jekyll](http://jekyllrb.com/) compiles the styles and pages into `HTML5` and `CSS`.
+- The [logo font](http://www.google.com/fonts/specimen/Aladin) is from [Google Fonts](http://www.google.com/webfonts).
 
 Thanks to [George Hickman](http://ghickman.co.uk/) for introducing me to
 Jekyll and giving me a helping hand as I got started.
