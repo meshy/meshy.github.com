@@ -8,5 +8,6 @@ This is the code for the website of [Charlie Denton](https://meshy.co.uk/).
 rbenv install
 gem install bundler
 bundle install
+git submodule update --init --recursive
 jekyll serve
 ```
