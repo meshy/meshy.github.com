@@ -6,10 +6,11 @@ title: Charlie Denton
 
 # Hi, I'm Charlie Denton.
 
-I work as lead developer at [Incuna][incuna] in Oxford (UK).
-I like to toy with shiny new stuff (recently clojure, tornado and angular)
-and primarily work with [django][django] in [python][python] on [linux][manjaro].
+I work as senior software developer at [WildFoundry][wildfoundry] in Oxford (UK).
 
+In my spare time I like to toy with shiny new stuff (recently clojure, tornado and angular)
+and primarily work with [django](http://djangoproject.com) in
+[python](http://www.python.org/) on [linux](http://manjaro.org).
 
 ## [FramewIRC][framewirc]
 
@@ -27,7 +28,7 @@ Django's class-based generic views are great, but can be hard to grasp. The lear
 [ccbv]: http://ccbv.co.uk/
 [django]: http://djangoproject.com
 [framewirc]: https://github.com/meshy/framewirc/
-[incuna]: http://incuna.com
 [manjaro]: http://manjaro.org
 [python]: http://www.python.org/
 [pythonwheels]: http://pythonwheels.com/
+[wildfoundry]: http://wildfoundry.com/
