@@ -6,8 +6,9 @@ title: Charlie Denton
 
 # Hi, I'm Charlie Denton.
 
-I work as lead developer at [Incuna](http://incuna.com) in Oxford (UK).
-I like to toy with shiny new stuff (recently clojure, tornado and angular)
+I work as senior software developer at [WildFoundry](http://wildfoundry.com/) in Oxford (UK).
+
+In my spare time I like to toy with shiny new stuff (recently clojure, tornado and angular)
 and primarily work with [django](http://djangoproject.com) in
 [python](http://www.python.org/) on [linux](http://manjaro.org).
 
