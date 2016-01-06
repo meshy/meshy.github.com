@@ -5,11 +5,11 @@ description: "How to see exactly what queries have run in a Django test"
 ---
 
 <header class='post-title'>
-    <span class='-date'>
+    <span class='date'>
         {{ page.date | date:"%A %-d %B %Y" }}
     </span>
-    <h1 class='-title'>Debugging assertNumQueries tests</h1>
-    <p class='-subtitle'>How to see exactly what queries have run in a Django test</p>
+    <h1 class='title'>Debugging assertNumQueries tests</h1>
+    <p class='subtitle'>How to see exactly what queries have run in a Django test</p>
 </header>
 
 <div class="alert alert-info">

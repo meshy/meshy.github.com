@@ -5,11 +5,11 @@ description: "How to set up PostgreSQL 9.1 for local user access/tests on Ubuntu
 ---
 
 <header class='post-title'>
-    <span class='-date'>
+    <span class='date'>
         {{ page.date | date:"%A %-d %B %Y" }}
     </span>
-    <h1 class='-title'>PostgreSQL without passwords</h1>
-    <p class='-subtitle'>
+    <h1 class='title'>PostgreSQL without passwords</h1>
+    <p class='subtitle'>
         How to set up PostgreSQL 9.1 for local user access/tests on Ubuntu Linux
     </p>
 </header>
