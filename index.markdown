@@ -6,7 +6,7 @@ title: Charlie Denton
 
 # Hi, I'm Charlie Denton.
 
-I work as senior software developer at [WildFoundry][wildfoundry] in Oxford (UK).
+I work as Senior Software Developer at [WildFoundry][wildfoundry] in Oxford (UK).
 
 In my spare time I like to toy with shiny new stuff (recently clojure, tornado and ansible)
 and primarily work with [django](http://djangoproject.com) in
