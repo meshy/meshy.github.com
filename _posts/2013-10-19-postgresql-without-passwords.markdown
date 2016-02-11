@@ -21,9 +21,11 @@ Harry having a peek at your data, you can get all that "security" balderdash
 out from under your feet by granting superuser access to your normal login
 user. `:D`
 
-1. Add the following to your `/etc/postgresql/9.1/main/pg_hba.conf`,
-**replacing `meshy` with your login name**. (If you don't know your username
-you can get it by running `whoami` in your terminal.)
+1. Add the following to your `/etc/postgresql/9.1/main/pg_hba.conf` just below
+   where is says `# Put your actual configuration here`.
+
+    **Replace `meshy` with your login name**. (If you don't know your
+    username you can get it by running `whoami` in your terminal.)
 
         host    all     meshy       127.0.0.1/32            trust
         local   all     meshy                               trust
