@@ -15,8 +15,8 @@ description: "or: How I Learned to Stop Worrying and Love the Book"
 I've tried keeping a diary, and I've tried all sorts of life management apps,
 but I've never managed to really stick with it. Then a colleague introduced me
 to [Bullet Journal][bullet-journal]. It's turned out to be invaluable. I'm a
-fan, even if I'm not using as prolifically now as I was when I started a little
-over a year ago.
+fan, even if I'm not using it as prolifically now as I was when I started a
+little over a year ago.
 
 A few days ago, I was asked if I knew a good introduction guide. I don't
 really. Rather than disappoint, I typed up some quick tips. As if to prove that
