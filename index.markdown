@@ -8,7 +8,7 @@ title: Charlie Denton
 
 I work as Senior Software Developer at [WildFoundry][wildfoundry] in Oxford (UK).
 
-In my spare time I like to toy with shiny new stuff (recently clojure, tornado and ansible)
+In my spare time I like to toy with shiny new stuff (recently clojure, tornado, webpack, and ansible)
 and primarily work with [django](http://djangoproject.com) in
 [python](http://www.python.org/) on [linux](http://manjaro.org).
 
