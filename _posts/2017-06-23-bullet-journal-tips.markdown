@@ -19,11 +19,10 @@ fan, even if I'm not using it as prolifically now as I was when I started a
 little over a year ago.
 
 A few days ago, I was asked if I knew a good introduction guide. I don't
-really. Rather than disappoint, I typed up some quick tips. As if to prove that
-there's no rest for the wicked, I was encouraged to [write them down
-publicly][write-more]. The particulars of the process are already covered very
-well elsewhere, so, in lieu of anything coherent, here're a few disjointed
-thoughts on the subject.
+really. Rather than disappoint, I typed up some quick tips, and I was
+encouraged to [write them down publicly][write-more]. The particulars of the
+process are already covered very well elsewhere, so, in lieu of anything
+coherent, here're a few disjointed thoughts on the subject.
 
 To start with, you can't go wrong with the "[How to Bullet Journal][how-to]"
 video (~4 mins) from the project's main home page. It's a short video
