@@ -1,16 +1,8 @@
 ---
-layout: main
+layout: post
 title: "Bullet journal tips"
 description: "or: How I Learned to Stop Worrying and Love the Book"
 ---
-
-<header class='post-title'>
-    <span class='date'>
-        {{ page.date | date:"%A %-d %B %Y" }}
-    </span>
-    <h1 class='title'>{{ page.title }}</h1>
-    <p class='subtitle'>{{ page.description }}</p>
-</header>
 
 I've tried keeping a diary, and I've tried all sorts of life management apps,
 but I've never managed to really stick with it. Then a colleague introduced me

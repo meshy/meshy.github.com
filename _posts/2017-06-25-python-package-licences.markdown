@@ -1,14 +1,8 @@
 ---
-layout: main
+layout: post
 title: "Python package licences"
 description: "How to determine the licence of your pip installed packages"
 ---
-
-<header class='post-title'>
-    <span class='date'>{{ page.date | date:"%A %-d %B %Y" }}</span>
-    <h1 class='title'>{{ page.title }}</h1>
-    <p class='subtitle'>{{ page.description }}</p>
-</header>
 
 Sometimes it's handy to know the licences of your project's dependancies. You
 could check each entry in `requirements.txt` one by one, but it'd be too easy
