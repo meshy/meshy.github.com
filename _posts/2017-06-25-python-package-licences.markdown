@@ -44,6 +44,9 @@ for package in pkg_resources.working_set:
                 # ... and add the package to the list for it.
                 license = line.rsplit(': ')[-1].strip()
                 licences[license].append(package)
+                break
+        else:
+            print('No data for {}'.format(package))
 
 # Then all we have to do is print it out:
 for licence, packages in licences.items():
