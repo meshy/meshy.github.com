@@ -20,6 +20,7 @@ from os.path import join
 # module is (it typically comes with `pip`).
 import pkg_resources
 
+
 licences = defaultdict(list)
 
 # We go over each installed package:
