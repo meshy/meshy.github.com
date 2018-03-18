@@ -1,3 +1,6 @@
+name: Charlie Denton
+description: The sporadic ramblings of a software developer in the UK.
+url: https://meshy.co.uk/
 permalink: /posts/:title
 sass:
     sass_dir: _sass
