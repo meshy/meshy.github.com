@@ -4,5 +4,5 @@ url: https://meshy.co.uk/
 permalink: /posts/:title
 sass:
     sass_dir: _sass
-gems:
+plugins:
     - jekyll-feed
