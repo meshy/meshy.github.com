@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ubuntu on a ReadyNAS Pro 6"
-description: "Steps and mis-steps taken to install linux on my NAS."
+description: "Steps and mis-steps taken to install Linux on my NAS."
 ---
 
 A little while ago I was looking to build a home server, and was very grateful
@@ -19,10 +19,10 @@ installation. It does have a suspiciously-VGA-port-shaped plate on the back,
 however...
 
 [Jaroslaw Zachwieja's related blog post][replace-os-post] very helpfully
-explains that there are some nvidia graphics card breakout cables that can be
+explains that there are some Nvidia graphics card breakout cables that can be
 installed to get this working. He lists them as "XFX part: MA-BK01-LP1K". It
 proved very hard to find that item in stock anywhere. I finally found a listing
-on ebay under the name "[VGA SVGA Video Graphics Adapter Card Slot Bracket
+on eBay under the name "[VGA SVGA Video Graphics Adapter Card Slot Bracket
 Header Cable 15 Pin 16 Hole][breakout-cable]". Catchy. I snapped one up.
 I've just checked: now they're sold out too.
 
@@ -62,7 +62,7 @@ toram` at the `boot:` prompt _instead_ of typing `help`.
 The standard Ubuntu Server image failed to format the USB it was running from
 with this method, but it worked a treat on the [Ubuntu 17.10 Network
 installer][ubuntu-network-installer]. (Confusingly, the file was called
-`mini.iso`, unlike the other ubuntu downloads, which, on the whole, are named
+`mini.iso`, unlike the other Ubuntu downloads, which, on the whole, are named
 descriptively.)
 
 The installation went swimmingly from there on. I thought things might have
@@ -78,9 +78,9 @@ gone wrong a couple of times, but nothing turned out to be an issue. Notably:
   Server" (which, in retrospect, [I probably didn't need][basic-ubuntu-server]).
 - Installing Grub to the Master Boot Record didn't seem to cause the chaos I
   thought it might.
-- Not that it's installed, nothing after the BIOS appears on the monitor. I
+- Now that it's installed, nothing after the BIOS appears on the monitor. I
   just get a blank screen. I suspect that there is an incorrect video setting
-  somwhere. That doesn't cause me any issues, however. I'm able to SSH in, and
+  somewhere. That doesn't cause me any issues, however. I'm able to SSH in, and
   I do not plan on having a monitor plugged in.
 
 So now I have Ubuntu installed! [Yatta!][hiro-nakamura]
