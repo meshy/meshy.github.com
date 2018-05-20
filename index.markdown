@@ -8,7 +8,7 @@ title: Charlie Denton
 
 I'm a Senior Software Developer at [Virtualstock][virtualstock] in the UK.
 
-In my spare time I like to toy with shiny new stuff (recently clojure, tornado, webpack, and ansible)
+In my spare time I like to toy with shiny new stuff (recently websockets, webpack, and ansible)
 and primarily work with [django][django] in [python][python] on [linux][manjaro].
 
 ## [FramewIRC][framewirc]
