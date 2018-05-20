@@ -9,8 +9,7 @@ title: Charlie Denton
 I'm a Senior Software Developer at [Virtualstock][virtualstock] in the UK.
 
 In my spare time I like to toy with shiny new stuff (recently clojure, tornado, webpack, and ansible)
-and primarily work with [django](http://djangoproject.com) in
-[python](http://www.python.org/) on [linux](http://manjaro.org).
+and primarily work with [django][django] in [python][python] on [linux][manjaro].
 
 ## [FramewIRC][framewirc]
 
@@ -26,9 +25,9 @@ Wheels are the fast new standard of python distribution. [Python Wheels][pythonw
 Django's class-based generic views are great, but can be hard to grasp. The learning curve is made steep by a complex tree of multiple inheritance. [CCBV][ccbv] attempts to flatten the curve by allowing you to easily find and read the code you care about.
 
 [ccbv]: http://ccbv.co.uk/
-[django]: http://djangoproject.com
+[django]: https://djangoproject.com
 [framewirc]: https://github.com/meshy/framewirc/
-[manjaro]: http://manjaro.org
-[python]: http://www.python.org/
+[manjaro]: https://manjaro.org
+[python]: https://www.python.org/
 [pythonwheels]: http://pythonwheels.com/
 [virtualstock]: http://virtualstock.co.uk/
