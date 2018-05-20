@@ -6,7 +6,7 @@ title: Charlie Denton
 
 # Hi, I'm Charlie Denton.
 
-I work as Senior Software Developer at [WildFoundry][wildfoundry] in Oxford (UK).
+I'm a Senior Software Developer at [Virtualstock][virtualstock] in the UK.
 
 In my spare time I like to toy with shiny new stuff (recently clojure, tornado, webpack, and ansible)
 and primarily work with [django](http://djangoproject.com) in
@@ -31,4 +31,4 @@ Django's class-based generic views are great, but can be hard to grasp. The lear
 [manjaro]: http://manjaro.org
 [python]: http://www.python.org/
 [pythonwheels]: http://pythonwheels.com/
-[wildfoundry]: http://wildfoundry.com/
+[virtualstock]: http://virtualstock.co.uk/
