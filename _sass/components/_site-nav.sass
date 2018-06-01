@@ -1,0 +1,22 @@
+.site-nav
+    display: flex
+
+    > .link
+        border-width: 1px
+        border-style: solid
+        border-color: transparent transparent $nav-edge
+        border-top-left-radius: 0.2em
+        border-top-right-radius: 0.2em
+        display: block
+        margin: 0 0.1em
+        padding: 0.5em 0.7em 0.3em
+
+    .link.-active,
+    .link:hover
+        border-left-color: $nav-edge
+        border-right-color: $nav-edge
+        border-top-color: $nav-edge
+
+    .link.-active
+        border-bottom-color: white
+        color: #333

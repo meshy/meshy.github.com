@@ -1,0 +1,16 @@
+.footer-nav
+    display: flex
+    font-size: 0.8em
+
+    @include media-breakpoint-down(xs)
+        flex-direction: column
+
+    @include media-breakpoint-up(sm)
+        justify-content: flex-end
+
+    > .link
+        display: block
+        margin: 0 0 0 2em
+        padding-bottom: 0.3em
+        padding-top: 0.5em
+        text-align: right

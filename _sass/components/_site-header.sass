@@ -1,0 +1,21 @@
+.site-header
+    border-bottom: 1px solid #ccc
+    margin-bottom: 50px
+
+    > .inner
+        @extend .container
+        display: flex
+        justify-content: space-between
+        margin: 0 auto -1px
+
+        @include media-breakpoint-up(md)
+            align-items: flex-end
+            flex-direction: row-reverse
+
+        @include media-breakpoint-down(sm)
+            align-items: flex-start
+            flex-direction: column
+
+    > .inner > .item
+        flex-basis: 0
+        flex-grow: 1
