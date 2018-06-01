@@ -4,12 +4,9 @@ bodyid: me
 title: Charlie Denton
 ---
 
-# Hi, I'm Charlie Denton.
+I'm Charlie Denton. I am a Software Developer at [Virtualstock][virtualstock]. I work mostly with [Django][django] in [Python][python] on [Linux][manjaro].
 
-I'm a Senior Software Developer at [Virtualstock][virtualstock] in the UK.
-
-In my spare time I like to toy with shiny new stuff (recently websockets, webpack, and ansible)
-and primarily work with [Django][django] in [Python][python] on [Linux][manjaro].
+This page lists some of my open-source projects. This website also hosts [my (mostly technical) blog](/posts/).
 
 ## [FramewIRC][framewirc]
 
