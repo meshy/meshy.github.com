@@ -24,12 +24,12 @@ def run_command(command):
     return subprocess.run(command, check=True, stdout=subprocess.PIPE).stdout
 
 
-def get_remote_ip_address():
+def get_remote_ip_address(domain):
     stdout = run_command(f'host {domain}')
     return stdout.strip().rsplit(maxsplit=1)[-1].decode()
 
 
-def get_firewalled_ip_and_rule_number():
+def get_firewalled_ip_and_rule_number(port):
     stdout = run_command('ufw status numbered')
     for line in stdout.decode().splitlines():
         if f'{port}/tcp' in line:
@@ -47,8 +47,8 @@ def add_new_rule(ip, port):
 
 if __name__ == '__main__':
     _, domain, port = sys.argv
-    remote_ip = get_remote_ip_address()
-    rule_number, firewalled_ip = get_firewalled_ip_and_rule_number()
+    remote_ip = get_remote_ip_address(domain)
+    rule_number, firewalled_ip = get_firewalled_ip_and_rule_number(port)
     if remote_ip != firewalled_ip:
         print(f'Changing IP from {firewalled_ip} to {remote_ip}.')
         remove_old_rule(rule_number)
