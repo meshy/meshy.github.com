@@ -4,7 +4,7 @@ bodyid: me
 title: Charlie Denton
 ---
 
-I'm Charlie Denton. I am a Software Developer at [Virtualstock][virtualstock]. I work mostly with [Django][django] in [Python][python] on [Linux][manjaro].
+I'm Charlie Denton. I'm a software developer. I work mostly with [Django][django] in [Python][python] on [Linux][manjaro].
 
 This page lists some of my open-source projects. This website also hosts [my (mostly technical) blog](/posts/).
 
@@ -32,4 +32,3 @@ Django's class-based generic views are great, but can be hard to grasp. The lear
 [manjaro]: https://manjaro.org
 [python]: https://www.python.org/
 [pythonwheels]: http://pythonwheels.com/
-[virtualstock]: http://virtualstock.co.uk/
