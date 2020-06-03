@@ -26,7 +26,7 @@ def run_command(command):
 
 def get_remote_ip_address(domain):
     stdout = run_command(f'host {domain}')
-    return stdout.strip().rsplit(maxsplit=1)[-1].decode()
+    return stdout.strip().split()[-1].decode()
 
 
 def get_firewalled_ip_and_rule_number(port):
