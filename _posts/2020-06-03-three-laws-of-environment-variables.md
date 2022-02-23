@@ -11,9 +11,7 @@ My guidelines for default env var values are:
 
 This format is inspired by [Isaac Asimov's Three Laws of Robotics][three-laws-robotics].
 
-I haven't found an exception to these rules yet, but like Asimov's Laws, I expect there are some odd cases when they're pushed to their limits.
-
-I'm happy with them, anyway.
+Like Asimov's Laws, I expect there are some odd cases when they're pushed to their limits.
 
 
 [three-laws-robotics]: https://en.wikipedia.org/wiki/Three_Laws_of_Robotics
