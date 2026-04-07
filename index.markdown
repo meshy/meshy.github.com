@@ -12,10 +12,18 @@ This page lists some of my open-source projects. This website also hosts [my (mo
 
 Django's class-based generic views are great, but can be hard to grasp. The learning curve is made steep by a complex tree of multiple inheritance. [CCBV][ccbv] attempts to flatten the curve by allowing you to easily find and read the code you care about.
 
+## [Django Subatomic][subatomic]
+
+Database transactions have been surprisingly difficult to get right with Django... until now! Django Subatomic makes your transaction related code stricter, safer, and faster; and your tests more realistic.
+
 ## [Django Schema Graph][django-schema-graph]
 
 A way to diagram the state of your Django database / model / app structure. Easy to use, and pretty to look at.
 
+
+## [Django Integrity][integrity]
+
+A library of tools for managing database constraints in Django projects which use PostgreSQL.
 
 ## [Python Wheels][pythonwheels]
 
@@ -29,6 +37,8 @@ I couldn't find an `asyncio` IRC library to match my needs, so I wrote one mysel
 [django]: https://djangoproject.com
 [django-schema-graph]: https://github.com/meshy/django-schema-graph/
 [framewirc]: https://github.com/meshy/framewirc/
+[integrity]: https://github.com/kraken-tech/django-integrity/
 [manjaro]: https://manjaro.org
 [python]: https://www.python.org/
 [pythonwheels]: http://pythonwheels.com/
+[subatomic]: https://kraken-tech.github.io/django-subatomic/
