@@ -8,13 +8,14 @@ I'm Charlie Denton. I'm a software developer. I work mostly with [Django][django
 
 This page lists some of my open-source projects. This website also hosts [my (mostly technical) blog](/posts/).
 
+## [Classy Class-Based Views][ccbv]
+
+Django's class-based generic views are great, but can be hard to grasp. The learning curve is made steep by a complex tree of multiple inheritance. [CCBV][ccbv] attempts to flatten the curve by allowing you to easily find and read the code you care about.
+
 ## [Django Schema Graph][django-schema-graph]
 
 A way to diagram the state of your Django database / model / app structure. Easy to use, and pretty to look at.
 
-## [Classy Class-Based Views][ccbv]
-
-Django's class-based generic views are great, but can be hard to grasp. The learning curve is made steep by a complex tree of multiple inheritance. [CCBV][ccbv] attempts to flatten the curve by allowing you to easily find and read the code you care about.
 
 ## [Python Wheels][pythonwheels]
 
